@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passionssite</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="billeder/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="billeder/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="billeder/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="billeder/favicon_io/site.webmanifest">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ygy5iwv.css">
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="billeder/favicon.svg" alt="Logo" width="50" height="50" class="logo">
+            <h1 class="siteName">PASSIONSSITE</h1>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Start</a></li>
+                </ul>
+            </nav>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="heroWrapper">
+                    <div class="overlay"></div>
+                    <img src="billeder/passionhero.webp" alt="Marcus Gordon hero" class="heroPic">
+                    <div class="heroContent">
+                        <dotlottie-player
+                            src="https://lottie.host/7bc47f83-dad4-4de0-9eee-a83aa55a4774/p1hpvbjaW5.lottie"
+                            background="transparent" speed="1" style="width: 150px; height: 150px;" loop autoplay
+                            class="lottieHero"></dotlottie-player>
+                        <h1>MARCUS GORDON</h1>
+                        <p>Passion for musikproduktion</p>
+                        <a href="#scroll" class="ctaButton">Gå til videoen</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content">
+                <h2 class="overskrift">MARCUS GORDON: PASSION</h2>
+                <h3 class="underoverskrift">"Inspiration er universelt"</h3>
+
+                <div class="textContent">
+                    <p>Marcus Gordon er producer, artist og engineer og arbejder tæt sammen med
+                        <strong>Flatlist</strong>, et brand, der forener mode og musik gennem sit community.
+                    </p>
+                    <p>Han brænder for fortællinger og bruger dem aktivt i sin kreative proces for at give musikken
+                        dybde. For Marcus er inspiration noget universelt, der kan findes overalt – fra spil og film til
+                        hverdagsoplevelser. Han beskriver, hvordan små øjeblikke kan vække store idéer.</p>
+                </div>
+
+                <div class="imageWithText">
+                    <div class="quoteContainer">
+                        <h2 class="quote">"Det der det ku jeg sample, det ku jeg lave noget epic shit med!"</h2>
+                    </div>
+                    <img src="billeder/tekst-billede.webp" alt="billede med tekst" class="tekstbillede">
+                </div>
+
+                <h3 class="subHeading">Galleri</h3>
+
+                <div class="billedeGrid">
+                    <img src="billeder/grid-billede1.webp" alt="" class="galleri1">
+                    <img src="billeder/grid-billede2.webp" alt="" class="galleri2">
+                    <img src="billeder/grid-billede3.webp" alt="" class="galleri3">
+                    <img src="billeder/grid-billede4.webp" alt="" class="galleri4">
+                </div>
+
+                <h3 class="subHeading">INTERVIEW</h3>
+
+                <div id="scroll" class="videoSection">
+                    <video controls width="560" height="315" class="video">
+                        <source src="video/PPvideo_1.mp4" type="video/mp4">
+                    </video>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/m3MfhTKXvAc?si=r9s7JE0cZZhltKqy"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2023 Passionssite. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="js/java.js"></script>
+</body>
+
+</html>
